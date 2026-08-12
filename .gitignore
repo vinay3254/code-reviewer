@@ -1,0 +1,16 @@
+# Ignore all markdown documentation files
+*.md
+**/*.md
+
+# Docs folder
+docs/
+
+# Python / Environment / Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Local data & logs
+self-improving-agent/data/chroma/
+self-improving-agent/data/logs/
