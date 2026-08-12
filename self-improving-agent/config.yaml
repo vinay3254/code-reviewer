@@ -1,0 +1,13 @@
+models:
+  planner: qwen2.5-coder:32b
+  patcher: qwen2.5-coder:14b
+  verifier: qwen2.5-coder:32b
+  embedding: nomic-embed-text
+retry_cap: 5
+sandbox:
+  timeout_seconds: 120
+  memory_limit: 1g
+  cpus: 1
+memory:
+  top_k: 5
+  chroma_path: ./data/chroma
